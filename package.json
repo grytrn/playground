@@ -4,6 +4,7 @@
   "description": "Mobile friendly price tracker/graph for cryptocurrencies",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,5 +15,8 @@
   ],
   "author": "grytrn",
   "license": "UNLICENSED",
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^0.17.1",
+    "numeral": "^2.0.6"
+  }
 }
